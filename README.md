@@ -9,6 +9,6 @@ This tutorial assumes you have the latest version of Postman, Docker, and pgAdmi
 
 ### Testing 
 - We will use Postman to test the creation of the API.
-- Import the Postman collection located within the repository into the Postman desktop app.
+- Import ``postgres_postman_collection.json`` located within the repository into the Postman desktop app.
 - Use Postman to test the **POST endpoint** by creating a user in the database.
 - Use Postman to test the **GET endpoint** by returning the new user you have just created.
