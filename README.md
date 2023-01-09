@@ -11,3 +11,4 @@ This tutorial assumes you have the latest version of [Postman](https://www.postm
 - Import ``postgres_postman_collection.json`` located within the repository into the Postman desktop app.
 - Use Postman to test the **POST endpoint** by creating a user in the database.
 - Use Postman to test the **GET endpoint** by returning the new user you have just created.
+- Go back to pgAdmin and access the database. In the columns section you feel see **id, first_name,** and **last_name**.
