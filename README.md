@@ -4,7 +4,7 @@ This tutorial assumes you have the latest version of [Postman](https://www.postm
 
 - Clone the repository into a local directory.
 - In the same directory, enter ``docker-compose up`` in the terminal. This build might take a few minutes to complete.
-- Open pgAdmin and click ``Add New Server``. Feel free to name your server anything, but make sure to fill in the fields for ``host name/address, username, password`` to ``localhost, compose-postgres, compose-postgres``.
+- Open pgAdmin and click ``Add New Server``. Feel free to name your server anything, but make sure to fill in the fields for ``host name/address, username, password`` to ``localhost, compose-postgres, compose-postgres`` before clicking **save**.
 
 ### Testing 
 - We will use Postman to test the creation of the API.
