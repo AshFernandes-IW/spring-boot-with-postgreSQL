@@ -1,11 +1,10 @@
 # spring-boot-with-postgreSQL
 
-This tutorial assumes you have the latest version of Postman, Docker, and pgAdmin installed.
+This tutorial assumes you have the latest version of [Postman](https://www.postman.com/downloads/), [Docker](https://www.docker.com/products/docker-desktop/), and [pgAdmin](https://www.pgadmin.org/download/) installed.
 
-- Clone the repository
-- Enter ``docker-compose up`` in the terminal set to the correct directory. This build might take a few minutes to complete.
+- Clone the repository into a local directory.
+- In the same directory, enter ``docker-compose up`` in the terminal. This build might take a few minutes to complete.
 - Open pgAdmin and click ``Add New Server``. Feel free to name your server anything, but make sure to fill in the fields for ``host name/address, username, password`` to ``localhost, compose-postgres, compose-postgres``.
-- 
 
 ### Testing 
 - We will use Postman to test the creation of the API.
