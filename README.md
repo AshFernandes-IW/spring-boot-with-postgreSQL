@@ -4,7 +4,7 @@ This tutorial assumes you have the latest version of [Postman](https://www.postm
 
 - Clone the repository into a local directory.
 - In the same directory, enter ``docker-compose up`` in the terminal. This build might take a few minutes to complete.
-- Open pgAdmin4 and click **Add New Server**. We will call our server ``spring-boot``. In the **Connection** tab, set the host name/address to ``localhost`` before entering the correct username and password as found in our ``docker-compose.yml`` file. Click **Save**.
+- Open pgAdmin4 and click **Add New Server**. We will call our server ``spring-boot``. In the **Connection** tab, set the host name/address to ``localhost`` before entering the correct username and password as found in our ``compose.yml`` file. Click **Save**.
 - You can access the database on the left-hand panel under *Servers*.
 - Now by going to: *Databases > [Username] > Schemas > Tables > customer > Columns*, you will see the **id, first_name,** and **last_name**.
 
